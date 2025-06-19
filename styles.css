@@ -1,0 +1,252 @@
+/* styles.css - Enhanced Professional Design with Improved Mobile Responsiveness */
+body {
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #22223b;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+header {
+    background: linear-gradient(90deg, #22223b 60%, #4a4e69 100%);
+    color: #f2e9e4;
+    text-align: center;
+    padding: 2.5rem 1rem 1.5rem 1rem;
+    box-shadow: 0 4px 24px #4a4e6944;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    position: relative;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 16px #4a4e69;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+header p {
+    margin: 1rem 0 0 0;
+    font-size: 1.1rem;
+    color: #9a8c98;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    background: #4a4e69;
+    padding: 0.8rem 0;
+    box-shadow: 0 2px 12px #4a4e6944;
+    border-radius: 0 0 18px 18px;
+    margin-bottom: 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+nav a {
+    color: #f2e9e4;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    padding: 0.3rem 1rem;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+nav a:hover, nav a:focus {
+    background: #9a8c98;
+    color: #22223b;
+    box-shadow: 0 2px 8px #9a8c9844;
+}
+main {
+    max-width: 950px;
+    margin: 2.5rem auto 2rem auto;
+    padding: 1.5rem;
+}
+section {
+    margin-bottom: 2.5rem;
+    background: #f2e9e4ee;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px #4a4e6922;
+    padding: 2rem 2rem 1.5rem 2rem;
+    position: relative;
+    overflow: hidden;
+}
+section h2 {
+    color: #4a4e69;
+    margin-top: 0;
+    text-shadow: 0 0 8px #9a8c9877;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    border-left: 6px solid #9a8c98;
+    padding-left: 0.7rem;
+    margin-bottom: 1.2rem;
+}
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    list-style: none;
+    padding: 0;
+}
+.skills-list li {
+    background: linear-gradient(90deg, #4a4e69 60%, #9a8c98 100%);
+    color: #f2e9e4;
+    padding: 0.7rem 1.3rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #4a4e6944;
+    font-size: 1.08rem;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.project-card {
+    background: linear-gradient(120deg, #9a8c98 60%, #c9ada7 100%);
+    border: 2px solid #4a4e69;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px #4a4e6944;
+    padding: 1.2rem 1rem;
+    flex: 1 1 260px;
+    min-width: 220px;
+    max-width: 320px;
+    color: #22223b;
+    transition: transform 0.2s, box-shadow 0.2s;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.project-card h3 {
+    margin-top: 0;
+    color: #22223b;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+.project-card p {
+    margin: 0;
+    color: #22223b;
+    font-size: 0.98rem;
+}
+.project-card:hover {
+    transform: translateY(-8px) scale(1.04);
+    box-shadow: 0 8px 32px #4a4e6999;
+    border-color: #22223b;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+input, textarea {
+    padding: 0.7rem;
+    border: 1px solid #00ffe7;
+    border-radius: 6px;
+    background: #232526;
+    color: #e0e6ed;
+    font-size: 1rem;
+    resize: none;
+}
+button[type="submit"] {
+    background: linear-gradient(90deg, #00ffe7, #fff200);
+    color: #232526;
+    border: none;
+    border-radius: 6px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 8px #00ffe733;
+    transition: background 0.2s, color 0.2s;
+}
+button[type="submit"]:hover {
+    background: linear-gradient(90deg, #fff200, #00ffe7);
+    color: #1a1a2e;
+}
+#formResponse {
+    margin-top: 1rem;
+    color: #00ffe7;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    padding: 1.2rem;
+    background: linear-gradient(90deg, #22223b 60%, #4a4e69 100%);
+    color: #f2e9e4;
+    font-size: 1.05rem;
+    box-shadow: 0 -2px 12px #4a4e6944;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    margin-top: 2rem;
+}
+section#contact a {
+    color: #4a4e69;
+    text-decoration: underline;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+section#contact a:hover {
+    color: #9a8c98;
+}
+@media (max-width: 900px) {
+    main {
+        padding: 0.5rem;
+    }
+    .projects-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav {
+        flex-direction: column;
+        gap: 0.7rem;
+    }
+    section {
+        padding: 1.2rem 0.7rem 1rem 0.7rem;
+    }
+}
+@media (max-width: 600px) {
+    header {
+        padding: 1.2rem 0.5rem 1rem 0.5rem;
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+    }
+    header h1 {
+        font-size: 1.3rem;
+    }
+    header p {
+        font-size: 0.95rem;
+    }
+    nav {
+        gap: 0.4rem;
+        font-size: 0.95rem;
+        border-radius: 0 0 10px 10px;
+        margin-bottom: 1.2rem;
+    }
+    section {
+        padding: 0.7rem 0.3rem 0.7rem 0.3rem;
+        border-radius: 10px;
+    }
+    section h2 {
+        font-size: 1.1rem;
+        padding-left: 0.4rem;
+        border-left-width: 4px;
+    }
+    .skills-list li {
+        font-size: 0.95rem;
+        padding: 0.5rem 0.7rem;
+    }
+    .project-card {
+        min-width: 0;
+        max-width: 100%;
+        font-size: 0.95rem;
+        padding: 0.7rem 0.5rem;
+    }
+    .projects-grid {
+        gap: 1rem;
+    }
+}
