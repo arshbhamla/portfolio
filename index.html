@@ -12,6 +12,7 @@
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -24,11 +25,41 @@
             <p>Why RF? My first taste of it was when taking my electromagnetics class. It was hard, but it also got me interested with the field.</p>
             <p>This last summer, I was motivated to get my ham radio license, and am currently building an AM radio transceiver. I want to keep going, with work experience and more classes to develop myself for a professional career.</p>
         </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>Spice Simulation: I use NI Multisim and recently started using ltSpice for spice simulations</li>
+                <li>Computer Aided Design (CAD): I've mainly used Autodesk Inventor, although I've worked a little with AutoCAD as well</li>
+                <li>PCB Design: My newest tool, I'm currently learning how to use Altium Designer for schematics and pcb designing</li>
+            </ul>
+            <h3>Programming</h3>
+            <ul>
+                <li>Python: It's been a while since I've used python, but I will be taking a class in machine learning using python</li>
+                <li>C++: Primarily in the context of microcontrollers like Arduino and ESP32</li>
+                <li>MATLAB: Used for my classes and I've started using it for its RF toolboxes</li>
+            </ul>
+            <h3>Other Skills</h3>
+            <ul>
+                <li>Ham Radio Operation (General License): My callsign is KE2GIG, I've been meaning to start next semester or when I can complete my own radio</li>
+                <li>Team Collaboration: I work well with teams, like I have in a number of my projects (listed below), and in clubs</li>
+            </ul>
+        </section>
         <section id="projects">
             <h2>Projects</h2>
+            <h3>AM Radio Transceiver</h3>
             <ul>
-                <li>Project 1: Circuit Design and Simulation</li>
-                <li>Project 2: Microcontroller-Based Automation</li>
+                <li>I started this project back in July; the goal is to make a fully working AM transceiver entirely from scratch</li>
+                <li>It's pretty ambitious, but I've been chipping away at it slowly and it's been making me learn about all the softwares used in industry</li>
+                <img src="images/schematicFirstDraft.png" alt="Schematic First Draft" style="max-width:300px; border-radius:8px;">
+                <p>This is the first draft I made using NI Multisim. The problem with this software is that it isn't able to compute higher than several megahertz frequencies. I'm currently redoing the numbers and running it in ltSpice</p>
+                <img src="images/transceiverFirstResults.png" alt="First Draft Results" style="max-width:300px; border-radius:8px;">
+                <p>This is the results I got from this circuit. It matches the circuit I wanted, but I will be redoing this in ltSpice to get the results on the frequency I need</p>
+                <img src="images/yagiUdaMatlab.png" alt="Yagi Uda on Matlab" style="max-width:300px; border-radius:8px;">
+                <p>I posted a photo to show the work that can be done on MATLAB. Of course, not all the tiles I'm showing were needed, I just wanted to show what it's capable of apart from being able to help me with the sizes</p>
+
+                <li>The next steps are in finishing the ltSpice simulation and also working on the pcb in Altium Designer</li>
+
             </ul>
         </section>
         <section id="contact">
