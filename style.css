@@ -1,3 +1,32 @@
+/* Lab report section formatting */
+.lab-section {
+    margin-bottom: 2.5rem;
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.lab-section h3 {
+    margin-top: 0;
+    color: #2a4d7c;
+}
+.lab-list {
+    list-style: none;
+    padding: 0;
+}
+.lab-list li {
+    margin-bottom: 0.5rem;
+}
+.lab-list a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+.lab-list a:hover {
+    color: #0c47a1;
+    text-decoration: underline;
+}
 .project-image {
     width: 100%;
     max-width: 500px;
